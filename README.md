@@ -20,17 +20,21 @@ The 42sh will function similiarly to a regular shell / terminal.  The shell
 program will be able to have the following basic features:
 
 A minimum line acquisition:
-	- [x] Prompt display.
-	- [x] Reading of a command line without line edition.
-	- [x] Proper space and tabulations management.
+
+- [x] Prompt display.
+- [x] Reading of a command line without line edition.
+- [x] Proper space and tabulations management.
+
 The following builtins including all their features if they have any 
 (the strict minimum being the features listed in POSIX standard):
-	- [x] cd
-	- [x] echo
-	- [x] exit
-	- [x] env
-	- [x] setenv
-	- [x] unsetenv
+
+- [x] cd
+- [x] echo
+- [x] exit
+- [x] env
+- [x] setenv
+- [x] unsetenv
+
 - [x] Simple execution of simple command with arguments and PATH management.
 - [x] Error and command’s return value management.
 - [x] The following redirections: ">", ">>", "<" and "|".
